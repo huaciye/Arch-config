@@ -1,0 +1,96 @@
+{
+	"layer": "top",
+	"position": "top",
+	"height": 38,
+	"margin-top": 3,
+	"margin-left": 14,
+	"margin-right": 14,
+
+
+
+	"modules-left": [
+		"custom/Arch",
+		"cpu",
+		"memory",
+		"disk",
+		"tray"
+	],
+	"modules-center": [
+		"hyprland/workspaces"
+	],
+	"modules-right": [
+		"network",
+		"bluetooth",
+		"backlight",
+		"wireplumber",
+		"clock",
+		"battery"
+	],
+
+
+
+	"custom/Arch":{
+        "format": "     "
+    },
+	"cpu": {
+		"interval": 10,
+		"format": " {}%  ",
+	},
+	"memory": {
+		"interval": 30,
+		"format": " {}% ",
+	},
+	"disk": {
+		"interval": 30,
+		"format": "  {percentage_free}%  ",
+		"path": "/"
+	},
+	"tray": {
+		"icon-size": 17,
+		"spacing": 10,
+		"reverse-direction": true
+	},
+
+
+
+	"hyprland/workspaces": {
+		"format": "{name}",
+		"active-only": true,
+		"sort-by-number": true,
+		"tooltip": false
+	},
+
+
+
+	"network": {
+        "interval": 5,
+		"format-wifi": "  ({bandwidthDownBytes})  ",
+		"format-ethernet":" ",
+        "format-disconnected": "  "
+	},
+	"bluetooth": {
+		"format": " {status}  ",
+		"format-disabled": "",
+		"format-connected": " {num_connections}"
+	},
+	"backlight": {
+        "format": "{icon}{percent}% ",
+        "format-icons": [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+    },
+	"wireplumber": {
+		"format": "{volume}%  "
+	},
+	"clock": {
+		"interval": 60,
+		"format": "{:%H:%M}  "
+	},
+	"battery": {
+		"interval": 60,
+		"states": {
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{icon}{capacity}% ",
+		"format-icons": [" ", " ", " ", " ", " "],
+	}
+}
