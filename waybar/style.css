@@ -1,0 +1,90 @@
+* {
+    font-family: Source Code Pro;
+    font-size: 15px;
+}
+window#waybar {
+	/*background-color: transparent;*/
+	all:unset;
+}
+
+
+
+.modules-left {
+	padding-left: 7px;
+	padding-right: 7px;
+	margin-left: 5px;
+    border-radius: 10px;
+    background: alpha( #3B4443, 0.5);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
+}
+.modules-center {
+	color: silver;
+    border-radius: 10px;
+    background: alpha( #3B4443, 0.5);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
+}
+.modules-right {
+	padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background: alpha( #3B4443, 0.5);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
+}
+
+
+
+#custom-Arch
+{
+	padding-top: 4px;
+}
+#cpu
+{
+	padding-top: 4px;
+}
+#memory
+{
+	padding-top: 4px;
+}
+#disk
+{
+	padding-top: 4px;
+}
+#tray
+{
+	padding-right: 8px;
+	padding-top: 4px;
+}
+
+
+
+#workspaces {
+	padding-top: 4px;
+}
+
+
+
+#network
+{
+	padding-top: 4px;
+}
+#bluetooth
+{
+	padding-top: 4px;
+}
+#backlight
+{
+	padding-top: 4px;
+}
+#wireplumber
+{
+	padding-top: 4px;
+}
+#clock
+{
+	padding-top: 4px;
+}
+#battery
+{
+	padding-top: 4px;
+}
