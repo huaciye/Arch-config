@@ -1,0 +1,14 @@
+[config]
+allow_images=true
+show=drun
+width=543
+height=500
+prompt=Search
+always_parse_args=true
+show_all=true
+term=alacritty
+hide_scroll=true
+print_command=true
+insensitive=true
+columns=3
+image_size=45
