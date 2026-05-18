@@ -59,7 +59,20 @@ window#waybar {
 
 
 #workspaces {
-	padding-top: 4px;
+	background: rgba(40, 42, 54, 0.5);
+	opacity: 1;
+	transition: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+#workspaces button,
+#workspaces button.active {
+	background: transparent;
+	color: #ffffff;
+}
+#workspaces button.visible {
+	background: #008B8B;
+    color: #ffffff;
 }
 
 
