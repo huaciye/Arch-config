@@ -1,0 +1,5 @@
+require("myconf/monitor")
+require("myconf/config")
+require("myconf/keybind")
+require("myconf/window_rule")
+require("myconf/autostart")
